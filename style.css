@@ -50,9 +50,11 @@ img {
   color: #666;
   line-height: 1.6;
 }
+/* 네비게이션 바 스타일 */
 
 /* 헤더 스타일 */
-.header {
+
+.navbar {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
@@ -61,6 +63,11 @@ img {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .logo-container {
@@ -309,7 +316,7 @@ img {
 
 /* 반응형 디자인 */
 @media (min-width: 1920px) {
-  .header,
+  .navbar,
   .hero-section,
   .hot-items-section,
   .search-section,
@@ -322,7 +329,7 @@ img {
 }
 
 @media (max-width: 1920px) {
-  .header {
+  .navbar {
     padding: 15px 0;
   }
 
@@ -358,7 +365,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  .header {
+  .navbar {
     padding: 15px 20px;
     flex-direction: column;
   }
