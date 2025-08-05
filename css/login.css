@@ -25,6 +25,12 @@ html, body {
   width: 100%;
   max-width: 396px;
   height: 132px;
+  object-fit: contain;
+}
+
+.hero-image {
+  margin-top: 10px;
+  margin-bottom: 10px;
 } 
 
 .login-form {
@@ -33,8 +39,9 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  width: 640px;
+  height: 618px;
+  box-sizing: border-box;
 }
 .login-form input[type="text"],
 .login-form input[type="password"] {
@@ -107,7 +114,6 @@ html, body {
 }
 
 .register-link {
-  padding-top: 13px;
   text-align: center;
   margin-top: 1rem;
 }

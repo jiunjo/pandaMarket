@@ -25,6 +25,12 @@
     height: 132px;
     object-fit: contain;
   }
+
+  .hero-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 60px;
+  }
   
   .sign-up-form {
     background-color: #fcfcfc;
