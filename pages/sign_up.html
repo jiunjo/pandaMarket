@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>로그인</title>
-    <link rel="stylesheet" href="../css/login.css" />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="../css/sign_up.css" />
   </head>
   <body>
     <!-- HTML 로그인 폼 -->
-    <div class="login-container">
-      <form class="login-form">
+    <div class="sign-up-container">
+      <form class="sign-up-form">
         <div class="hero-image">
           <img
             src="../images/property 1=lg.png"
@@ -22,27 +22,31 @@
           <input type="text" id="username" name="username" required />
         </div>
         <div class="input-group">
+          <label for="nickname">닉네임</label>
+          <input type="text" id="nickname" name="nickname" required />
+        </div>
+        <div class="input-group">
           <label for="password">비밀번호</label>
           <input type="password" id="password" name="password" required />
         </div>
-
-        <button type="submit" class="login-btn">로그인</button>
+        <div class="input-group">
+          <label for="check-password">비밀번호 확인</label>
+          <input type="password" id="check-password" name="check-password" required />
+        </div>
+        <button type="submit" class="login-btn">회원가입</button>
         <div class="login-easy">
           <span class="login-easy-text">간편로그인하기</span>
           <span class="login-easy-icon">
-            <a href="#"
-              ><img src="../images/구글이미지.png" alt="google"
-            /></a>
+            <a href="#"><img src="../images/구글이미지.png" alt="google" /></a>
             <a href="#"
               ><img src="../images/카카오 이미지.png" alt="kakao"
             /></a>
           </span>
         </div>
         <div class="register-link">
-          <p>판다마켓이 처음이신가요? <a href="sign_up.html">회원가입</a></p>
+          <p>이미 회원이신가요? <a href="login.html">로그인</a></p>
         </div>
       </form>
     </div>
-    <div class="login-container"></div>
   </body>
 </html>
